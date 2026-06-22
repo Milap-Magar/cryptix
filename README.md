@@ -1,6 +1,6 @@
 <div align="center">
 
-<div style="background-color:#202026; padding:30px; border-radius:16px; display:inline-block">
+<div style="background-color:#202026; padding:30px; border-radius:16px; display:inline-block;">
   <img src="./public/logo.svg" alt="Cryptix Logo" width="120"/>
 </div>
 
