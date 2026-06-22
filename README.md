@@ -1,8 +1,6 @@
 <div align="center">
 
-<div style="background-color:#202026; padding:30px; border-radius:16px; display:inline-block;">
-  <img src="./public/logo.svg" alt="Cryptix Logo" width="120"/>
-</div>
+<img src="./public/banner.png" alt="Cryptix Banner" width="100%" />
 
 # Cryptix
 
@@ -53,7 +51,8 @@ The primary purpose of building Cryptix was to:
 ## ™️ Trademark
 
 **Cryptix™**
-Designed and Developed by **Milap Magar**.
+Designed by **Framer**
+Developed by **Milap Magar**.
 
 © 2026 Milap Magar. All Rights Reserved.
 
