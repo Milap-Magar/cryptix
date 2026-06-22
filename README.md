@@ -2,8 +2,6 @@
 
 <img src="./public/banner.png" alt="Cryptix Banner" width="100%" />
 
-# Cryptix
-
 ### Digital Asset Management Application
 
 A modern digital asset management platform designed to help users securely organize, manage, and monitor their digital assets through an intuitive and responsive interface.
