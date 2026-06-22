@@ -1,0 +1,56 @@
+/* 1. Root Variables & Customs First (Source of truth) */
+:root {
+  --bg-main: #202026;
+  --bg-surface: #1e293b;
+  --brand-primary: #10b981;
+  --text-main: #f9fafc;
+  --text-muted: #94a3b8;
+
+  /* height fix */
+  --nav-height: 80px;
+}
+
+/* Custom breakpoints according to mobile devices */
+@custom-media --sm-screen (min-width: 360px);
+@custom-media --md-screen (min-width: 768px);
+@custom-media --lg-screen (min-width: 1024px);
+@custom-media --xl-screen (min-width: 1440px);
+
+/* 2. Global Reset (Structural configs only) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Base HTML/Body Configs (The proper place to stop page-level horizontal scrolling) */
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* ONLY hides scrolling at the absolute root page level */
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased; /* Makes fonts look crisp like production apps */
+
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 4. Media Fluidity Rule (Apply max-width safely only to structural visual media) */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}

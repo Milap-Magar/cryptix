@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fixed the closing tag here -->
+    <title>Cryptix : Digital assets management</title>
+
+    <!-- Linking CSS separate files and folder -->
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/pricing.css" />
+    <link rel="stylesheet" href="css/features.css" />
+    <link rel="stylesheet" href="css/works.css" />
+    <link rel="stylesheet" href="css/cta.css" />
+
+    <!-- FONTS -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+    </style>
+  </head>
+  <body>
+    <main id="main-container">
+      <!-- Hero Section -->
+      <section id="hero-contianer">
+        <!-- Navbar section -->
+        <nav id="nav-container">
+          <div class="nav-boundary">
+            <!-- Logo -->
+            <figure class="logo-container">
+              <a href="#hero">
+                <img src="images/logo.svg" id="logo-img" />
+              </a>
+
+              <!-- List for desktop and larger devices -->
+              <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#works">How it works</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#faq">Faq</a></li>
+              </ul>
+            </figure>
+
+            <!-- Use Template -->
+            <button class="template-btn">Use Template</button>
+            <!-- Menu bar || Tabs bar -->
+            <div class="menu-container">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-menu-icon lucide-menu"
+              >
+                <path d="M4 5h16" />
+                <path d="M4 12h16" />
+                <path d="M4 19h16" />
+              </svg>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Main Hero Section -->
+        <article class="hero-container">
+          <h1 id="hero-title"></h1>
+          <p id="hero-subtitle"></p>
+          <button id="get-started-btn">Get started now</button>
+        </article>
+      </section>
+
+      <!-- Feature Section -->
+
+      <!-- Designed For You Section  -->
+
+      <!-- Cta Section -->
+
+      <!-- Testimonials Section -->
+
+      <!-- Pricing Section -->
+
+      <!-- FAQ Section -->
+
+      <!-- Footer Section -->
+    </main>
+
+    <script type="module">
+      import { heroData } from "./lib/hero.js";
+
+      document.getElementById("hero-title").textContent = heroData.hero.title;
+      document.getElementById("hero-subtitle").textContent =
+        heroData.hero.subtitle;
+    </script>
+  </body>
+</html>
